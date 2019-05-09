@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="irisdata$sources"
+		revision="0.1"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190508163944"/>
+	<dependencies>
+		<module organisation="com.github.haifengl" name="smile-scala_2.12">
+			<revision name="1.5.0" status="release" pubdate="20171110033516" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3777" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-scala_2.12/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-scala_2.12/1.5.0/smile-scala_2.12-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-scala_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="117590" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-scala_2.12/srcs/smile-scala_2.12-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-scala_2.12/1.5.0/smile-scala_2.12-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-plot">
+			<revision name="1.5.0" status="release" pubdate="20171110033510" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3153" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-plot/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-plot/1.5.0/smile-plot-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-plot" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="213906" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-plot/srcs/smile-plot-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-plot/1.5.0/smile-plot-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.swinglabs" name="swingx">
+			<revision name="1.6.1" status="release" pubdate="20100724113104" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.swinglabs.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.html"/>
+				<metadata-artifact status="no" details="" size="3112" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.swinglabs/swingx/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/swinglabs/swingx/1.6.1/swingx-1.6.1.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="swingx" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1487288" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.swinglabs/swingx/srcs/swingx-1.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/swinglabs/swingx/1.6.1/swingx-1.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-nlp">
+			<revision name="1.5.0" status="release" pubdate="20171110033505" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3012" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-nlp/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-nlp/1.5.0/smile-nlp-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-nlp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2444595" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-nlp/srcs/smile-nlp-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-nlp/1.5.0/smile-nlp-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-interpolation">
+			<revision name="1.5.0" status="release" pubdate="20171110033501" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3042" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-interpolation/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-interpolation/1.5.0/smile-interpolation-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-interpolation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33392" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-interpolation/srcs/smile-interpolation-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-interpolation/1.5.0/smile-interpolation-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-core">
+			<revision name="1.5.0" status="release" pubdate="20171110033454" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3439" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-core/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-core/1.5.0/smile-core-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="433725" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-core/srcs/smile-core-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-core/1.5.0/smile-core-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-graph">
+			<revision name="1.5.0" status="release" pubdate="20171110033504" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3018" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-graph/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-graph/1.5.0/smile-graph-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-graph" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11988" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-graph/srcs/smile-graph-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-graph/1.5.0/smile-graph-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-data">
+			<revision name="1.5.0" status="release" pubdate="20171110033458" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3015" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-data/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-data/1.5.0/smile-data-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-data" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48408" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-data/srcs/smile-data-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-data/1.5.0/smile-data-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.haifengl" name="smile-math">
+			<revision name="1.5.0" status="release" pubdate="20171110033457" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/haifengl/smile" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3005" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-math/ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/haifengl/smile-math/1.5.0/smile-math-1.5.0.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="smile-math" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="283444" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.github.haifengl/smile-math/srcs/smile-math-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/haifengl/smile-math/1.5.0/smile-math-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.25" status="release" pubdate="20170316163632" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5377" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.25.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55539" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.25-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.swinglabs" name="swing-worker">
+			<revision name="1.1" status="release" pubdate="20071116035645" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://swingworker.dev.java.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.html"/>
+				<metadata-artifact status="no" details="" size="2517" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.swinglabs/swing-worker/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/swinglabs/swing-worker/1.1/swing-worker-1.1.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="swing-worker" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21823" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.swinglabs/swing-worker/srcs/swing-worker-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/swinglabs/swing-worker/1.1/swing-worker-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jhlabs" name="filters">
+			<revision name="2.0.235" status="release" pubdate="20061120225950" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jhlabs.com/ip/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2591" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.jhlabs/filters/ivy-2.0.235.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/jhlabs/filters/2.0.235/filters-2.0.235.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.0.235" rev-constraint-default="2.0.235" rev-constraint-dynamic="2.0.235" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="filters" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="266123" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.jhlabs/filters/srcs/filters-2.0.235-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/jhlabs/filters/2.0.235/filters-2.0.235-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.4" status="release" pubdate="20171011080456" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.4" rev-constraint-default="2.12.4" rev-constraint-dynamic="2.12.4" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.4/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991177" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.xstream" name="xstream">
+			<revision name="1.4.8" status="release" pubdate="20150218190829" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="BSD style" url="http://xstream.codehaus.org/license.html"/>
+				<metadata-artifact status="no" details="" size="16772" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.thoughtworks.xstream/xstream/ivy-1.4.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.4.8" rev-constraint-default="1.4.8" rev-constraint-dynamic="1.4.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xstream" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="395464" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/com.thoughtworks.xstream/xstream/srcs/xstream-1.4.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xpp3" name="xpp3_min">
+			<revision name="1.1.4c" status="release" pubdate="20071201090642" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Indiana University Extreme! Lab Software License, vesion 1.1.1" url="http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt"/>
+				<license name="Public Domain" url="http://creativecommons.org/licenses/publicdomain"/>
+				<metadata-artifact status="no" details="" size="2835" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/xpp3/xpp3_min/ivy-1.1.4c.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.pom"/>
+				<caller organisation="default" name="irisdata$sources" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.4c" rev-constraint-default="1.1.4c" rev-constraint-dynamic="1.1.4c" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="xpp3_min" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37855" time="0" location="/Users/rebeccasimmonds/.ivy2/cache/xpp3/xpp3_min/srcs/xpp3_min-1.1.4c-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
