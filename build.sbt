@@ -1,4 +1,4 @@
-name := "irisData"
+name := "scala-openshift"
 
 version := "0.1"
 
