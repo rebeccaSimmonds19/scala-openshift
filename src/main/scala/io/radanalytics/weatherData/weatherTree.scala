@@ -1,6 +1,9 @@
+package io.radanalytics.weatherData
+
 import smile.classification.DecisionTree
 import smile.read
 import smile.classification.cart
+import scala.io.Source
 
 import scala.language.dynamics
 import scala.language.implicitConversions
