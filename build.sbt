@@ -12,3 +12,5 @@ libraryDependencies += "com.github.haifengl" %% "smile-scala" % "1.5.2"
 
 libraryDependencies += "com.github.haifengl" % "smile-core" % "1.5.2"
 
+libraryDependencies += "com.github.haifengl" % "smile-data" % "1.5.2"
+
