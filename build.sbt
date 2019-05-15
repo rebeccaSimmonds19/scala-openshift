@@ -18,4 +18,3 @@ libraryDependencies += "com.github.haifengl" % "smile-nlp" % "1.5.0"
 
 libraryDependencies += "com.github.haifengl" % "smile-plot" % "1.5.0"
 
-libraryDependencies += "org.scala-lang" % "scala-library" % "2.12.4"
