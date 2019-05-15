@@ -10,6 +10,6 @@ resourceDirectory in Compile := baseDirectory.value / "resources.io.radanalytics
 
 libraryDependencies += "com.github.haifengl" %% "smile-scala" % "1.4.0"
 
-libraryDependencies += "com.github.haifengl" % "smile-core" %1.4.0
+libraryDependencies += "com.github.haifengl" % "smile-core" % "1.4.0"
 
 libraryDependencies += "org.scala-lang" % "scala-library" % "2.11.8"
