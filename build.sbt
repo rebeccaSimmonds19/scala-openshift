@@ -8,7 +8,7 @@ mainClass in (Compile, run) := Some("io.radanalytics.weatherData.weatherTree")
 
 resourceDirectory in Compile := baseDirectory.value / "resources.io.radanalytics.weatherData.data"
 
-libraryDependencies += "com.github.haifengl" %% "smile-scala"
+libraryDependencies += "com.github.haifengl" %% "smile-scala" % "1.40"
 
 libraryDependencies += "com.github.haifengl" % "smile-core"
 
