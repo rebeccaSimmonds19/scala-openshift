@@ -2,7 +2,7 @@ name := "irisData"
 
 version := "0.1"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.11"
 
 mainClass in (Compile, run) := Some("io.radanalytics.weatherData.weatherTree")
 
